@@ -9,8 +9,28 @@ module.exports.decorateConfig = (config) => {
     css: `
       html {
         height: 100%;
-        background-image: linear-gradient(${colors});
+        background: linear-gradient(269deg, #ff00c8, #ffe300, #00ff20, #1c00ff);
+        background-size: 800% 800%;
+
+        -webkit-animation: AnimationName 16s ease infinite;
+        -moz-animation: AnimationName 16s ease infinite;
+        animation: AnimationName 16s ease infinite;
         border-radius: ${borderWidth};
+      }
+      @-webkit-keyframes AnimationName {
+          0%{background-position:0% 50%}
+          50%{background-position:100% 50%}
+          100%{background-position:0% 50%}
+      }
+      @-moz-keyframes AnimationName {
+          0%{background-position:0% 50%}
+          50%{background-position:100% 50%}
+          100%{background-position:0% 50%}
+      }
+      @keyframes AnimationName {
+          0%{background-position:0% 50%}
+          50%{background-position:100% 50%}
+          100%{background-position:0% 50%}
       }
       body {
         position: absolute;

@@ -1,5 +1,5 @@
-# hyperborder - extension for HyperTerm
-adds a gradient border to the hyperterm editor
+# hyperborder with wave gradient - extension for HyperTerm
+adds a wave gradient border to the hyperterm editor
 
 ![](https://cldup.com/pL94ODfQNP.png)
 
