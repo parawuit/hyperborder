@@ -1,7 +1,7 @@
 # hyperborder with wave gradient - extension for HyperTerm
 adds a wave gradient border to the hyperterm editor
 
-![](http://im.ezgif.com/tmp/ezgif-743915911.gif)
+![](http://im.ezgif.com/tmp/ezgif-2378725613.gif)
 
 
 ```
